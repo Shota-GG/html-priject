@@ -58,7 +58,7 @@ header {
     width: 35%;
     margin: 0 auto;
 }
-section {
+.firstsection {
     background-image: url(../images/lalo-hernandez-Amo081zdJsI-unsplash.png);
     width: 1766.4px;
     height: 608px;
@@ -293,4 +293,27 @@ section {
 }             
 .best:hover {
     box-shadow: 8px 8px #EBF0FE;
-}           
+}       
+.satauri1 {
+    font-size: 40px;
+    padding-bottom: 79px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}    
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 26px;
+    padding-bottom: 65px;
+}
+.nav p:hover {
+    border-bottom: 5px solid #163235;
+}
+.nav p {
+    border-bottom: 5px solid white;
+    cursor: pointer;
+}
