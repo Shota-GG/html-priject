@@ -332,6 +332,8 @@ header {
 .down{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
 }
 .up {
     width: 100%;
@@ -478,4 +480,33 @@ header {
 }
 .lorem p:first-child {
     font-size: 26px;
+}
+footer {
+    width: 92%;
+    margin: 0 auto;
+    background-color: #E1E8F8;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 178px;
+}
+.center2  ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.center2 {
+    width: 30%;
+    margin: 0 auto;
+}
+.left2 {
+    width: 30%;
+    margin: 0 auto;
+}
+.right2 {
+    width: 15%;
+    margin: 0 auto;
 }
