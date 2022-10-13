@@ -374,3 +374,108 @@ header {
 .singapore:hover {
     box-shadow: 8px 8px #EBF0FE;
 }
+.blog {
+    font-size: 40px;
+    padding-bottom: 73px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.mount {
+    background-image: url(../images/NoPath.png);
+    width: 55%;
+    margin: 0 auto;
+    height: 587px;
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.mount p {
+    width: 468px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.traveler {
+    background-image: url(../images/eva-darron-oCdVtGFeDC0-unsplash.png);
+    width: 100%;
+    margin: 0 auto;
+    height: 277px;
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.female {
+    background-image: url(../images/ibrahim-rifath-Y6tBl0pTe-g-unsplash.png);
+    width: 100%;
+    margin: 0 auto;
+    height: 277px;
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.cards4 {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 172px;
+}
+.things {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.things div {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.happy {
+    font-size: 40px;
+    padding-bottom: 73px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.customers {
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    padding-bottom: 191px;
+}
+.left1 {
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+
+}
+.bottom {
+    display: flex;
+    padding-top: 50px;
+}
+.bottom p {
+    padding-left: 26px;
+}
+.bottom p:first-child {
+    padding-top: 30px;
+    font-size: 28px;
+}
+.lorem p:first-child {
+    font-size: 26px;
+}
