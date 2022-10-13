@@ -31,7 +31,15 @@
     color: #FFFFFF;
     border-color: #4468E2;
     cursor: pointer;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
+@keyframes box {
+    form {background-color: #4468E2;}
+    to {background-color: black;}
+} 
 header {
     display: flex;
     justify-content: space-between;
@@ -338,10 +346,13 @@ header {
 .up {
     width: 100%;
     margin: 0 auto;
+    /* position: relative; */
 }
 .up img {
     width: 100%;
-    margin: 0 auto
+    margin: 0 auto;
+    border-radius: 15px;
+    /* position: absolute; */
 }
 .up h3 {
     font-size: 38px;
@@ -510,3 +521,31 @@ footer {
     width: 15%;
     margin: 0 auto;
 }
+.anime {
+    /* position: relative; */
+}
+.anime img {
+    /* position: absolute; */
+}
+.topp {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
