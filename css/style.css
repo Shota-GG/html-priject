@@ -37,6 +37,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 19px;
+    width: 92%;
+    margin: 0 auto;
 }
 .center li{
     /* width: 598px;
@@ -49,10 +51,6 @@ header {
     color: #1C4961;
     opacity: 1;
     cursor: pointer;
-}
-header {
-    width: 92%;
-    margin: 0 auto;
 }
 .center {
     width: 35%;
@@ -316,4 +314,63 @@ header {
 .nav p {
     border-bottom: 5px solid white;
     cursor: pointer;
+}
+.cards2 {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.singapore {
+    width: 27%;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+.up {
+    width: 100%;
+    margin: 0 auto;
+}
+.up img {
+    width: 100%;
+    margin: 0 auto
+}
+.up h3 {
+    font-size: 38px;
+    margin-bottom: 14px;
+}
+.up p {
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+.appr p:first-child {
+    font-size: 31px;
+    padding-bottom: 12px;
+}
+.appr p:nth-child(2) {
+    font-size: 22px;
+}
+.kms img {
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+.kms p {
+    font-size: 22px;
+}
+.cards3 {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.singapore:hover {
+    box-shadow: 8px 8px #EBF0FE;
 }
