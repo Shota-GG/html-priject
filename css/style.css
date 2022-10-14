@@ -128,6 +128,7 @@ header {
     cursor: pointer;
     width: 22%;
     margin: 0 auto;
+    
 }
 .in {
     width: 130px;
@@ -163,6 +164,8 @@ header {
     padding-bottom: 178.6px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    /* justify-content: center; */
 }
 .imgbox1 {
     width: 103px;
@@ -315,6 +318,7 @@ header {
     margin: 0 auto;
     font-size: 26px;
     padding-bottom: 65px;
+    flex-wrap: wrap;
 }
 .nav p:hover {
     border-bottom: 5px solid #163235;
@@ -330,9 +334,10 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 200px;
+    flex-wrap: wrap;
 }
 .singapore {
-    width: 27%;
+    width: 552px;
     margin: 0 auto;
     border-radius: 10px;
     cursor: pointer;
@@ -383,6 +388,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 200px;
+    flex-wrap: wrap;
 }
 .singapore:hover {
     box-shadow: 8px 8px #EBF0FE;
@@ -414,7 +420,7 @@ header {
 }
 .traveler {
     background-image: url(../images/eva-darron-oCdVtGFeDC0-unsplash.png);
-    width: 100%;
+    /* width: 40%; */
     margin: 0 auto;
     height: 277px;
     background-position: center;
@@ -427,7 +433,7 @@ header {
 }
 .female {
     background-image: url(../images/ibrahim-rifath-Y6tBl0pTe-g-unsplash.png);
-    width: 100%;
+    /* width: 40%; */
     margin: 0 auto;
     height: 277px;
     background-position: center;
@@ -445,6 +451,8 @@ header {
     justify-content: space-between;
     align-items: stretch;
     margin-bottom: 172px;
+    flex-wrap: wrap;
+    
 }
 .things {
     width: 40%;
@@ -470,13 +478,15 @@ header {
     width: 92%;
     margin: 0 auto;
     padding-bottom: 191px;
+    
 }
 .left1 {
     width: 45%;
     margin: 0 auto;
     display: flex;
     gap: 24px;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .bottom {
     display: flex;
@@ -558,5 +568,45 @@ footer {
     }
     .burger {
         display: block;
+    }
+    .mount {
+        width: 100%;
+        height: 320px;
+    }
+    .things {
+        width: 100%;
+    }
+    .descr {
+        display: none;
+    }
+    .explore {
+        width: 80%;
+    }
+    .go .p2 {
+        display: none;
+    }
+    .travel {
+        font-size: 20px;
+    }
+    .p1 {
+        font-size: 12px;
+    }
+    .p2 {
+        font-size: 12px;
+    }
+    .firstsection {
+        height: 300px;
+    }
+    .cards1 {
+        padding-top: 30px;
+    }
+    .mount p{
+        font-size: 20px;
+        width: 80%;
+    }
+    .bottom img {
+        height: 70px;
+        width: 70px;
+        
     }
 }
