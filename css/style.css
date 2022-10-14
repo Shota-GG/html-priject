@@ -527,7 +527,7 @@ footer {
 .anime img {
     /* position: absolute; */
 }
-.topp {
+/* .topp {
     animation-name: fade;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -548,4 +548,15 @@ footer {
     100% {
       opacity: 0;
     }
-  }
+  } */
+  .burger {
+    display: none;
+}
+@media (max-width: 480px){
+    nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
